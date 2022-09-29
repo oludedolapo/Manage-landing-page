@@ -17,8 +17,14 @@
     <header class="primary-header">
       <div class="container">
         <a href="#"><img src="./images/logo.svg" alt="Manage" /></a>
+        <button class="mobile_nav_toggle" aria-controls="primary-navigation">
+          <img class="icon-hamburger" src="./images/icon-hamburger.svg" alt="" aria-hidden="true">
+          <img class="icon-close" src="./images/icon-close.svg" alt="" aria-hidden="true">
+          <span class="visually-hidden">Menu</span>
+        
+        </button>
         <nav class="primary-navigation">
-          <ul role="list" class="nav-list">
+          <ul role="list" class="nav-list" id="primary-navigation">
             <li><a href="#">Pricing</a></li>
             <li><a href="#">Product</a></li>
             <li><a href="#">About</a></li>
