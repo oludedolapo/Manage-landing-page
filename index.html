@@ -16,25 +16,37 @@
   <body>
     <header class="primary-header">
       <div class="container">
-        <a href="#"><img src="./images/logo.svg" alt="Manage" /></a>
-        <button class="mobile_nav_toggle" aria-controls="primary-navigation">
-          <img class="icon-hamburger" src="./images/icon-hamburger.svg" alt="" aria-hidden="true">
-          <img class="icon-close" src="./images/icon-close.svg" alt="" aria-hidden="true">
-          <span class="visually-hidden">Menu</span>
-        
-        </button>
-        <nav class="primary-navigation">
-          <ul role="list" class="nav-list" id="primary-navigation">
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Community</a></li>
-          </ul>
-          <button class="button">Get Started</button>
-        </nav>
+        <div class="nav-wrapper">
+          <a href="#"><img src="./images/logo.svg" alt="Manage" /></a>
+          <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            <img
+              class="icon-hamburger"
+              src="./images/icon-hamburger.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            <img
+              class="icon-close"
+              src="./images/icon-close.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            <span class="visually-hidden">Menu</span>
+          </button>
+          <nav class="primary-navigation" id="primary-navigation">
+            <ul role="list" class="nav-list" >
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Product</a></li> 
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Community</a></li>
+            </ul>
+          </nav>
+          <button class="button | display-sm-none display-md-inline-flex">Get Started</button>
+        </div>
       </div>
     </header>
+
     <main>
       <section class="padding-block-900">
         <div class="container">
@@ -152,8 +164,8 @@
           <div>
             <form action="">
               <input type="email" name="email" />
-               <button>Go</button>
             </form>
+            <button>Go</button>
             <p>Copyright 2020. All Rights Reserved</p>
           </div>
         </div>

@@ -73,3 +73,7 @@ Pricing
   Go
 
   Copyright 2020. All Rights Reserved
+
+    Key notes about the projects
+    Sometimes when we are approaching our website, and we are comtemplating on what to approach first either the mobile or desktop first sometimes we might need to approach the one that is very easy to navigate back to either being the mobile first or te desktop first
+    the part of least resistance
